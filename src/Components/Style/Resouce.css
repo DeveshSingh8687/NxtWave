@@ -1,0 +1,112 @@
+.resouce-main{
+    /* background-color: rgba(220,220,220,0.5); */
+    margin: auto;
+    width: 80%;
+}
+
+/* Nav buttons */
+.nav-top{
+    padding-top: 46px;
+    margin: auto;
+    width: 50%;
+}
+.nav-buttons{
+    display: flex;
+    text-align: center;
+    width: 600px;
+    height: 40px;
+    border: 1px solid gray;
+}
+.nav-buttons hr{
+    height: 40px;
+    position: relative;
+    margin-top: 0px;
+}
+.nav-buttons p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+    font-family: 'HK Grotesk';
+    background-color: #D7DFE9;
+}
+
+
+/* Search input */
+.search-area input{
+    margin-top: 32px;
+    margin-left: 30px;
+    width: 648px;
+    height: 40px;
+    border: 1px solid #D7DFE9;
+    border-radius: 3px;
+}
+::placeholder{
+    color: #D7DFE9;
+    padding-left: 10px;
+    font-family: 'HK Grotesk';
+}
+
+
+/* Cards Section */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mui-card{
+    margin-top: 32px;
+    width: 360px;
+    height: 192px;
+}
+.card-title{
+    display: flex;
+}
+.card-title img{
+    /* margin: 24px; */
+}
+.card-title p{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "HK Grotesk";
+}
+.card-title span{
+    font-size: 12px;
+    font-weight: 400;
+    color: #7E858E;
+    font-family: "HK Grotesk";
+}
+.card-link{
+    padding-top: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "HK Grotesk";
+}
+.card-description{
+    margin-top: 25px;
+    text-overflow: ellipsis;
+}
+.card-description span{
+    padding-top: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "HK Grotesk";
+    color: #7E858E;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-buttons{
+        flex-wrap: wrap;
+    }
+    .nav-buttons p{
+        width: 10px;
+    }
+    .search-area input{
+        width: 200px;
+    }
+  }

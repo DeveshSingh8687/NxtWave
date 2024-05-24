@@ -1,0 +1,23 @@
+.header-main{
+    background-color: white;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+    margin-top: 16px;
+    margin-left: 48px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-right img{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
