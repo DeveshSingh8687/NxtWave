@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/NxtWave/static/css/main.3898f546.css",
+    "main.js": "/NxtWave/static/js/main.70545d45.js",
+    "static/js/453.d0dcf0d4.chunk.js": "/NxtWave/static/js/453.d0dcf0d4.chunk.js",
+    "static/media/Addres.png": "/NxtWave/static/media/Addres.825e77fee3b31cabfca3.png",
+    "static/media/logo.svg": "/NxtWave/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/NxtWave/index.html",
+    "main.3898f546.css.map": "/NxtWave/static/css/main.3898f546.css.map",
+    "main.70545d45.js.map": "/NxtWave/static/js/main.70545d45.js.map",
+    "453.d0dcf0d4.chunk.js.map": "/NxtWave/static/js/453.d0dcf0d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3898f546.css",
+    "static/js/main.70545d45.js"
+  ]
+}
